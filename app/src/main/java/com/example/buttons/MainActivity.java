@@ -22,6 +22,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button = findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Java Android Application Development", Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
 };
