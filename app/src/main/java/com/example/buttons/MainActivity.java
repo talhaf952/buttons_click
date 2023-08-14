@@ -30,5 +30,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button = findViewById(R.id.button3);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Punjab University", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 };
