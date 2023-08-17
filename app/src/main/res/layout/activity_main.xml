@@ -49,7 +49,7 @@
         android:textSize="36dp"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:background="#D72F8F8C"
+        android:background="#D509BAB4"
         android:text="Buttons On Click" />
 
 
